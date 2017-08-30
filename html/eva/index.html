@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+<html lang="en">
+	<head>
+		<meta charset="utf-8" />
+		<meta http-equiv="X-UA-Compatible" content="IE=Edge" />
+		<meta name="viewport" content="width=device-width, initial-scale=1, user-scalable=no" />
+		<title>Evaluation</title>
+		<link rel="shortcut icon" href="img/hfu_logo_darkgray.png" type="image/x-icon">
+		<link rel="icon" href="img/hfu_logo_darkgray.png" type="image/x-icon">
+		<link rel="stylesheet" href="css/libs/bootstrap.min.css" />
+		<link rel="stylesheet" href="css/libs/bootstrap-select.min.css" />
+		<link rel="stylesheet" href="css/client/eva.css" />
+		<script src="js/libs/jquery-1.11.1.min.js"></script>
+		<script src="js/libs/bootstrap.min.js"></script>
+		<script src="js/libs/nanobar.min.js"></script>
+		<script src="js/client/bootstrap-select.min.js"></script>
+		<script src="js/client/StaticText.js"></script>
+		<script src="js/client/Images.js"></script>
+		<script src="js/client/Login.js"></script>
+		<script src="js/client/Carousel.js"></script>
+		<script src="js/client/Progressbar.js"></script>
+		<script src="js/client/Slide.js"></script>
+		<script src="js/client/Eva.js"></script>
+		<script src="js/client/Ready.js"></script>
+	</head>
+	
+	<body>
+		
+		<div id="header" class="header navbar navbar-default navbar-static-top" role="navigation">
+			<div class="container">
+				<div class="navbar-header">
+					<a class="navbar-brand" href=""><img src="img/hfu_logo_gray.png" height="30px" width="30px"/> Evaluation</a>
+				</div>
+			</div>
+		</div>
+		
+		<div id="main" class="main" >
+			<div id="main-container" class="container">
+				<form class="form-code">
+					<h2 class="form-code-heading">Code eingeben</h2>
+					<div class="form-group">
+						<input type="text" class="form-control" name="code" placeholder="Code" autofocus/>
+						<span class="glyphicon glyphicon-remove form-control-feedback"></span>
+					</div>
+					<select class="selectpicker" name="lang" data-width="100%" data-header="Sprache ausw&#228;hlen">
+						<option value="de" selected>Deutsch</option>
+						<option value="en">English</option>
+					</select>
+					<button class="btn btn-lg btn-primary btn-block btn-signin" type="submit">Starten</button>
+				</form>
+			</div>
+		</div>
+	</body>
+</html>
