@@ -6,15 +6,14 @@ Version 1.0
 
 ### Getting started
 
-`clone https://github.com/ashiqmoh/eva-server
-
-`cd eva-server
-
-`mvn exec:java
-
+```bash
+clone https://github.com/ashiqmoh/eva-server
+cd eva-server
+mvn exec:java
+```
 
 Open in browser
-
-`http://localhost/eva
-
-`http://localhost/eva/admin
+```
+http://localhost/eva
+http://localhost/eva/admin
+```
