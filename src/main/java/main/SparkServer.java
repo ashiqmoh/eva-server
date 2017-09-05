@@ -12,7 +12,7 @@ public class SparkServer
 	public static void setup(int port, final String basepath)
 	{
 		basePath = basepath;
-		if (port == -1) port = 4567;
+		if (port == -1) port = 80;
 		String localIP = "none";
 		try
 		{

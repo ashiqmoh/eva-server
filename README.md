@@ -1,14 +1,13 @@
 # eva-server
 
-A cloud-based evaluation system
-
-Version 1.0
+A cloud-based evaluation system (v1.0)
 
 ### Getting started
 
-```bash
+```
 clone https://github.com/ashiqmoh/eva-server
 cd eva-server
+mvn compile
 mvn exec:java
 ```
 
